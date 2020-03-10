@@ -22,3 +22,9 @@ float: 0
 
 实际使用commit：https://github.com/weibreeze/breeze-go/commit/16003c2df404b1b8ebfaf619dfc7b0eebcd67b88
 ```
+# go-checksum
+```
+go get github.com/vikyd/go-checksum
+
+$GOPATH/bin/go-checksum /path/pkg github.com/weibreeze/breeze-go@v0.1.0
+```
