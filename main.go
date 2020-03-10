@@ -18,5 +18,6 @@ func main() {
 
 	b.Write(data)
 	bErr := breeze.ReadFloat64(b, &f)
-	fmt.Println(bErr, f)
+	fmt.Println("err:", bErr)
+	fmt.Println("float:", f)
 }
